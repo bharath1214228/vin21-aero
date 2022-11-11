@@ -1,0 +1,192 @@
+/* CSS Stylesheet for LibGuides */
+
+/* Code below reduces the size of the librarian profile email button and changes button color */
+
+.s-lib-profile-email {
+	font-size: 8px;
+}
+
+.label-info {
+	background-color: #A39161;
+}
+
+
+/* Code below hides subject experts associated to A-Z databases */
+
+#s-lg-az-experts-div {
+	display: none !important;
+}
+
+
+/* Code below assigns a default font size to the body of the guides */
+
+body {
+	font-size:13px;
+}
+
+
+/* Code below assigns a default font size and font color to the box titles and background color of the box headers */
+
+.s-lib-box .s-lib-box-title {
+	font-size: 16px;
+}
+
+
+
+
+<!-- /* Code below creates hover ability over hours */
+
+.tablehover {
+	max-width: 100%; 
+	background-color: #ffffff; 
+	border-collapse: collapse; 
+	border-spacing: 0;
+} -->
+
+
+/* Code below sets table spacing and hover for hours info */
+
+.hourstable {
+	border-spacing: 13px 10px; 
+	border-collapse: separate; 
+	width:100%; 
+	table table-hover;
+} -->
+
+
+<!-- /* Code below assigns color to horizontal line */
+
+hr {
+	border-color: #BCBCBC;
+} -->
+
+
+<!-- /* Changing font size within Popular FAQs */
+
+.s-la-widget .s-la-faq-listing-q {
+	font-weight: bold; 
+	font-size: 14px;
+}
+
+.s-la-widget .s-la-faq-listing-meta {
+	font-size: 0.8em;
+}
+
+.s-la-widget-embed {
+	background: #ffffff;
+} -->
+
+
+/* Code below removes Guide Type button from homepage */
+
+#s-lg-index-guidetype-btn {
+	display: none;
+}
+
+
+/* Code below removes Guide Owner button from homepage */
+
+#s-lg-index-owner-btn {
+	display: none;
+}
+
+
+/* Code below removes Subject Experts box */
+
+#s-lg-sb-experts-div {
+	display: none;
+}
+
+
+/* Code styles buttons */
+
+a.button.yellow {
+	background-color: #f8cf63; 
+	color: #666!important;
+}
+
+a.button.orange {
+	background-color: #d2753c;
+}
+
+a.button.blue {
+	background-color: #3a6fcd;
+}
+
+a.button.gray {
+	background-color: #284267;
+}
+
+a.button.aal {
+	background-color: #36547f;
+}
+
+a.button.rag {
+	background-color: #5bc0de;
+}
+
+a.button.rd {
+	background-color: #468848;
+}
+
+a.button>a.button:hover, a.button:focus {
+	outline: none;
+}
+
+a.button {
+	color: white !important; 
+	text-align: center; 
+	font-family: helvetica; 
+	letter-spacing: 1px;    	
+	padding: 8px 20px; 
+	text-decoration: none !important; 
+	width: 100%; 
+	float: left; 
+	margin-bottom: 10px;    	
+	border-radius: 3px;
+}
+
+.fade75 {
+	opacity: 1; 
+	transition: opacity .25s;
+}
+
+.fade75:hover {
+	opacity:0.75;
+}
+
+
+/*Style code for Popovers*/
+
+.popover-title {
+	background: #737373;
+	font-weight:bold;
+	color: #ffffff;
+}
+
+.popover {
+	background: #F9F9F9;
+	border: 1px solid rgb(217,217,217);
+}
+
+.popover-content {
+	font-size: 13px;
+}
+
+
+/* Code to change size of guide breadcrumbs */
+
+#s-lib-bc .breadcrumb {
+	font-size: 12px;
+}
+
+
+/* Code to change background of Research Databases search header */
+
+.navbar-default {
+	background-color: #eeeeee;
+}
+
+.navbar-default .navbar-brand { 
+	color: #222222;
+}
